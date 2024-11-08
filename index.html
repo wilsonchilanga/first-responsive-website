@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Adventure</title>
+    <!--Css link-->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!--Navbar-->
+    <nav class="navbar">
+      <h1 class="logo">ADVENTURE</h1>
+      <ul class="nav-links">
+      <li class="active"><a href="#"></a>Home</li>
+      <li><a href="#"></a>Tours</li>
+      <li><a href="#"></a>Explore</li>
+      <li><a href="#"></a>About</li>
+      <li class="ctn"><a href="#"></a>Contact</li>
+      </ul>
+      <img src="img/menu.png" alt="" class="menu-btn">
+    </nav>
+
+   <header>
+    <div class="header-content">
+        <h2>Explore The Colorful World</h2>
+        <div class="line"></div>
+        <h1>A WONDERFUL GIFT</h1>
+        <a href="#" class="ctn">Learn More</a>
+    </div>
+   </header>
+
+   <!--Events ==-->
+   <section class="events">
+        <div class="title">
+            <h1>Upcoming Events</h1>
+            <div class="line"></div>
+        </div>
+        <div class="events-row">
+            <div class="events-col">
+                <img src="img/pic 1.jpeg" class="events-image">
+                <h4>Everest Camp Trek</h4>
+                <p>
+									My first real taste of adventure was a trekking tour to Chanderkhani
+									pass – one of the most serene & beautiful pass, at an altitude of 3660
+									m located in Kullu valley. It had been a tough year for me. I had just
+									completed my standard 10th board examination & was looking for something
+									really amazing to do in my vacation.
+                </p>
+                <a href="#" class="ctn">Learn More</a>
+            </div>
+            <div class="events-col">
+                <img src="img/pic 2.jpg" class="events-image">
+                <h4>Walking Holidays</h4>
+                <p>My first real taste of adventure was a trekking tour to Chanderkhani pass
+                    – one of the most serene & beautiful pass, 
+                    at an altitude of 3660 m located in Kullu valley.
+                    It had been a tough year for me. 
+                    I had just completed my standard 10th board examination & was looking for
+                    something really amazing to do in my vacation.
+                </p>
+                <a href="#" class="ctn">Learn More</a>
+            </div>
+        </div>
+   </section>
+   <section class="explore">
+    <div class="explore-content">
+        <h1>EXPLORE THE WORLD</h1>
+        <div class="line"></div>
+    <p>So, let the gentle breeze from untarnished land caress you,<br />
+			let the voice of chirping birds bless your ears,<br />
+			let the rays of rising sun beyond horizons motivate you to shine bright,<br />
+			let the hard climb up the mountain test your determination,
+			<br />for everyone needs a little adventure in their lives,
+			whatever counts for you is up to you.
+
+		</p>
+    <a href="#" class="ctn">Learn More</a>
+    </div>
+   </section>
+
+   <section class="tours">
+    <div class="row">
+        <div class="col content-col">
+            <h1>UPCOMING TOURS & DESTINATION</h1>
+            <div class="line"></div>
+            <p>Adventure is a remedy to all those tedious chores. It is an emotion, an emotion that is to be catered to our soul to keep it lively.</p>
+            <a href="#" class="ctn">Learn More</a>
+        </div>
+        <div class="col image-col">
+          <div class="image-gallery">
+            <img src="./img/img 3.jpeg">
+            <img src="./img/img 4.jpg">
+            <img src="./img/img 5.jpeg">
+            <img src="./img/img 6.jpg">
+          </div>
+        </div>
+    </div>
+   </section>
+<!--Footer-->
+   <footer class="footer">
+    <p>7806 Hout Bay, Cape Town, South Africa</p>
+    <p>Phone: 0629508550 |Email:Wilsonchilangali@outlook.com</p>
+    <p>Copylight &copy;2024 Outdoor Adventure</p>
+   </footer>
+
+   <script>
+    const menuBtn = document.querySelector('.menu-btn')
+    const navlinks = document.querySelector('.nav-links')
+
+    menuBtn.addEventListener('click', ()=>{
+        navlinks.classList.toggle('mobile-menu')
+    })
+   </script>
+</body>
+</html>
